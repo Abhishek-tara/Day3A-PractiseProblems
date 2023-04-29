@@ -29,9 +29,14 @@
             //Console.ReadKey();
 
             //Encapsulation
-            Encapsulation obj = new Encapsulation();
-            Console.WriteLine($"Name : {obj.Name}");
-            Console.WriteLine($"Age : {obj.Age}");
+            //Encapsulation obj = new Encapsulation();
+            //Console.WriteLine($"Name : {obj.Name}");
+            //Console.WriteLine($"Age : {obj.Age}");
+
+            //Abstraction
+            Child obj = new Child();
+            obj.NormalMethod();
+            obj.AbstractMethod();
 
 
         }
