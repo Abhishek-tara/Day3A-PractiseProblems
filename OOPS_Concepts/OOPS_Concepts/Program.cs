@@ -21,12 +21,17 @@
             //obj.Method();
             //obj.Method(4, 5);
 
-            //MethodOcerRide
-            MethodOverRide obj = new MethodOverRide();
-            obj.Method();
-            Derived obj_One = new Derived();
-            obj_One.Method();
-            Console.ReadKey();
+            //MethodOVerRide
+            //MethodOverRide obj = new MethodOverRide();
+            //obj.Method();
+            //Derived obj_One = new Derived();
+            //obj_One.Method();
+            //Console.ReadKey();
+
+            //Encapsulation
+            Encapsulation obj = new Encapsulation();
+            Console.WriteLine($"Name : {obj.Name}");
+            Console.WriteLine($"Age : {obj.Age}");
 
 
         }
