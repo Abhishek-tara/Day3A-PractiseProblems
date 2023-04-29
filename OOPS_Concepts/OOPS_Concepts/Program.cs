@@ -17,10 +17,17 @@
             //dog.SnakeSound();
 
             //MethodOverLoading
-            MethodOverloading obj = new MethodOverloading();
+            //MethodOverloading obj = new MethodOverloading();
+            //obj.Method();
+            //obj.Method(4, 5);
+
+            //MethodOcerRide
+            MethodOverRide obj = new MethodOverRide();
             obj.Method();
-            obj.Method(4, 5);
-            
+            Derived obj_One = new Derived();
+            obj_One.Method();
+            Console.ReadKey();
+
 
         }
     }
