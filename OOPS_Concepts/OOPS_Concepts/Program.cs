@@ -34,9 +34,16 @@
             //Console.WriteLine($"Age : {obj.Age}");
 
             //Abstraction
-            Child obj = new Child();
-            obj.NormalMethod();
-            obj.AbstractMethod();
+            //Child obj = new Child();
+            //obj.NormalMethod();
+            //obj.AbstractMethod();
+
+            //Reference And Value type.
+            int value = 20;
+            int value_One = 40;
+            ValueAndReferenceType obj = new ValueAndReferenceType();
+            obj.Method(value, value_One);
+            obj.Method_One(ref value, ref value_One);
 
 
         }
