@@ -39,11 +39,18 @@
             //obj.AbstractMethod();
 
             //Reference And Value type.
-            int value = 20;
-            int value_One = 40;
-            ValueAndReferenceType obj = new ValueAndReferenceType();
-            obj.Method(value, value_One);
-            obj.Method_One(ref value, ref value_One);
+            //int value = 20;
+            //int value_One = 40;
+            //ValueAndReferenceType obj = new ValueAndReferenceType();
+            //obj.Method(value, value_One);
+            //obj.Method_One(ref value, ref value_One);
+
+            //Method Types
+            TypesOFMethod obj = new TypesOFMethod();
+            obj.Method();
+            obj.Method_One("Tom", "Hardy");
+            Console.WriteLine(obj.Method_Two("Clark", "Kent"));
+            Console.ReadKey();
 
 
         }
