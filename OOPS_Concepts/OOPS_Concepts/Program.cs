@@ -11,10 +11,15 @@
             //obj.Display();
 
             //Polymorphism
-            PolymorphismDemo obj = new PolymorphismDemo();
-            obj.SnakeSound();
-            Dog dog = new Dog();
-            dog.SnakeSound();
+            //PolymorphismDemo obj = new PolymorphismDemo();
+            //obj.SnakeSound();
+            //Dog dog = new Dog();
+            //dog.SnakeSound();
+
+            //MethodOverLoading
+            MethodOverloading obj = new MethodOverloading();
+            obj.Method();
+            obj.Method(4, 5);
             
 
         }
