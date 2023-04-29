@@ -46,11 +46,23 @@
             //obj.Method_One(ref value, ref value_One);
 
             //Method Types
-            TypesOFMethod obj = new TypesOFMethod();
+            //TypesOFMethod obj = new TypesOFMethod();
+            //obj.Method();
+            //obj.Method_One("Tom", "Hardy");
+            //Console.WriteLine(obj.Method_Two("Clark", "Kent"));
+            //Console.ReadKey();
+
+            //Single Inheritence types
+            ChildClass obj = new ChildClass();
             obj.Method();
-            obj.Method_One("Tom", "Hardy");
-            Console.WriteLine(obj.Method_Two("Clark", "Kent"));
-            Console.ReadKey();
+
+            //Multilevel
+            Sibling objj = new Sibling();
+            objj.Method();
+
+            //Heirarchical
+            Daughter daughter= new Daughter();
+            daughter.Method();
 
 
         }
